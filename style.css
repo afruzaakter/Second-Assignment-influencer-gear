@@ -131,7 +131,7 @@
      grid-template-columns: repeat(3, 1fr);
      align-items: center;
      justify-content: center;
-     grid-gap: 35px;
+     grid-gap: 50px;
  }
  .product{
      width: 329px;
@@ -291,12 +291,15 @@
  }
 
  /* footer part end */
- /* Mobile resposive media query start  */
+ /* Mobile responsive media query start  */
 @media only screen and (max-width: 688px){
      .container{
         width: 100%;  
         margin: 0 auto;
         
+    }
+    .menu li{
+        display: none;
     }
     .banner{
         flex-direction: column;
@@ -304,11 +307,15 @@
         align-items: center;
 
     }
-    .products{
-        grid-template-columns: repeat(1, 1fr);
-        align-items: center;
+    .banner-left{
+        width: 288px;
+        
     }
-  .contact{
+    .banner-right{
+     width: 390px;
+    }
+   
+  .contact, .products{
       grid-template-columns: repeat(1, 1fr);
   }
     footer{
@@ -316,4 +323,17 @@
     }
 }
 
- /* Mobile resposive media query end  */
+ /* Mobile responsive media query end  */
+ /* Teblet responsive media query start  */
+ @media only screen and (min-width:688px) and (max-width: 992px){
+     .container{
+         width: 100%;
+     }
+  nav{
+      justify-content: space-around;
+  }
+   .products{
+      grid-template-columns: repeat(2, 1fr);
+  }  
+ }
+ /* Teblet responsive media query end  */
