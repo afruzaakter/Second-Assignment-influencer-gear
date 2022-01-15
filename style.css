@@ -352,6 +352,10 @@
         font-size: 25px;
         transition: .3s;
     }
+    .social-icon:hover{
+        color: white;
+        background-color: chocolate;
+    }
     .fa-linkedin-in{
         background-color: #1DA1F2;
         
