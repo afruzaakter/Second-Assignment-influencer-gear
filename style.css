@@ -51,14 +51,14 @@
  }
  .menu{
      display: flex;
-     justify-content: space-around;
+     justify-content: space-between;
+     align-items: flex-end;
 
  }
  .logo{
      font-size: 25px;
      color: #3A3A3A;
      font-weight: 700;
-     line-height: 1.5;
      transition: .3s;
  }
  .logo:hover{
@@ -66,15 +66,15 @@
  }
  .menu li{
      list-style: none;
-     padding: 15px;
+     padding: 10px;
      margin: 10px;
-     font-size: 20px;
+     font-size: 18px;
      font-weight: 600;
  }
  .menu li a{
      text-decoration: none;
      color: #3A3A3A;
-     
+     text-transform: uppercase;
      border-radius: 5px;
      transition: 0.3s;
  }
@@ -323,6 +323,7 @@
     }
     .banner-right{
      width: 354px;
+     background-color: #e6e3e3;
     }
    
   .contact, .products{
@@ -344,6 +345,9 @@
   }
    .products{
       grid-template-columns: repeat(2, 1fr);
-  }  
+  } 
+  .banner-right{
+    background-color: #e6e3e3;
+  } 
  }
  /* Teblet responsive media query end  */
