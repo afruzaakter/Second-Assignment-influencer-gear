@@ -105,11 +105,14 @@
   }
   
   .banner-right{
-      width: 440px;
-      height: 414px;
+    width: 440px;
+    height: 414px;
+      border-radius: 50%;
+      background-color: rgb(211, 209, 208);
+     
   }
   .banner-right img{
-      width: 100%;
+     width: 100%;
       object-fit: cover;
   }
 
@@ -319,7 +322,7 @@
         
     }
     .banner-right{
-     width: 390px;
+     width: 354px;
     }
    
   .contact, .products{
