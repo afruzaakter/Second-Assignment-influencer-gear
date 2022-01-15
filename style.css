@@ -115,11 +115,7 @@
 
  /* section 1 banner part end */
  /* section 2 Popular collection css style start  */
- #Products{
-     margin: 100px 0 100px 0;
-     width: 1047px;
-     height: 1662px;
- }
+
  .section-title{
      text-align: center;
  }
@@ -189,6 +185,7 @@
         color: chocolate;
         font-weight: 600;
         transition: .3s;
+        margin-right: 40px;
     }
     .link-button i{
         margin-left: 5px;
@@ -311,7 +308,9 @@
         grid-template-columns: repeat(1, 1fr);
         align-items: center;
     }
-
+  .contact{
+      grid-template-columns: repeat(1, 1fr);
+  }
     footer{
         flex-direction: column;
     }
