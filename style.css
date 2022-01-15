@@ -384,6 +384,32 @@
   } 
 .logo{
     color: chocolate;
+} 
+footer{  
+    flex-direction: column;  
+} 
+.social-icon{
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(250, 248, 246);
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 25px;
+    transition: .3s;
+}
+.social-icon:hover{
+    color: white;
+    background-color: chocolate;
+}
+.fa-linkedin-in{
+    background-color: #1DA1F2;
+    
+}
+.fa-facebook-f{
+    background-color: #0078FF;
+    font-weight: 700;
+    
 }
   /* responsive menu  */
  
