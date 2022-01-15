@@ -44,14 +44,14 @@
      background-image: linear-gradient(60deg, rgb(199, 90, 13), chocolate);
  }
  /* responsive nav start */
-   #nav-toggler{
+    #nav-toggler{
        display: none;
    }
    .nav-toggler-icon{
        display: none;
        color: #fff;
        font-size: 30px;
-   }
+   } 
  /* responsive nav end */
  /* Header part start  */
  nav{
@@ -277,7 +277,7 @@
      margin-bottom: 10px;
  }
  .social-icon{
-     margin: 15px;
+     margin: 10px;
      height: 50px;
      width: 50px;
      background-color: rgb(250, 248, 246);
@@ -339,8 +339,27 @@
   .contact, .products{
       grid-template-columns: repeat(1, 1fr);
   }
-    footer{
-        flex-direction: column;
+     footer{  
+        flex-direction: column;  
+    } 
+    .social-icon{
+        margin: 10px;
+        height: 40px;
+        width: 40px;
+        background-color: rgb(250, 248, 246);
+        padding: 8px;
+        border-radius: 50%;
+        font-size: 25px;
+        transition: .3s;
+    }
+    .fa-linkedin-in{
+        background-color: #1DA1F2;
+        
+    }
+    .fa-facebook-f{
+        background-color: #0078FF;
+        font-weight: 700;
+        
     }
 }
 
@@ -363,7 +382,7 @@
     color: chocolate;
 }
   /* responsive menu  */
-
+ 
   .nav-toggler-icon{
     display: block;
 }
@@ -392,5 +411,12 @@ h3{
     display: none;
 }
 
- }
+ } 
  /* Teblet responsive media query end  */
+
+
+
+
+
+
+ 
