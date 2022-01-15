@@ -43,6 +43,16 @@
      color: #ffffff;
      background-image: linear-gradient(60deg, rgb(199, 90, 13), chocolate);
  }
+ /* responsive nav start */
+   #nav-toggler{
+       display: none;
+   }
+   .nav-toggler-icon{
+       display: none;
+       color: #fff;
+       font-size: 30px;
+   }
+ /* responsive nav end */
  /* Header part start  */
  nav{
      display: flex;
@@ -308,9 +318,9 @@
         margin: 0 auto;
         
     }
-    .menu li{
+   .menu li{
         display: none;
-    }
+    } 
     .banner{
         flex-direction: column;
         justify-content: center;
@@ -340,14 +350,47 @@
      .container{
          width: 100%;
      }
-  nav{
+  /* nav{
       justify-content: space-around;
-  }
+  } */
    .products{
       grid-template-columns: repeat(2, 1fr);
   } 
   .banner-right{
     background-color: #e6e3e3;
   } 
+.logo{
+    color: chocolate;
+}
+  /* responsive menu  */
+
+  .nav-toggler-icon{
+    display: block;
+}
+.menu{
+    position: absolute;
+    top: 80px; 
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    transform: translateY(-330px);
+    transition: .5s ease-in-out;
+}
+h3{
+    text-align: center;
+}
+.menu li a{
+    color: #121212;
+}
+#nav-toggler:checked ~ .menu{
+    transform: translateY(0px);
+}
+
+.responsive{
+    display: none;
+}
+
  }
  /* Teblet responsive media query end  */
